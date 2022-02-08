@@ -1,0 +1,8 @@
+.menu-container {
+  max-width: 720px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 23px;
+}
