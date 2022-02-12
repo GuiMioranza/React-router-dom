@@ -1,0 +1,26 @@
+.input-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.github-profile-infos-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.github-profile-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 7px 0px;
+}
+
+.github-profile-info label {
+  font-weight: 500;
+  margin-right: 13px;
+}
+
+.github-repositories-container {
+  display: flex;
+  flex-direction: column;
+}

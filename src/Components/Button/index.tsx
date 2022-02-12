@@ -8,12 +8,12 @@ interface ButonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 export default function Button ({ children, onClick, ...rest }: ButonProps) {
   function onClickInterno() {
     console.log("fui clicado.");
-    onClick && onclick();
+    onClick && onClick();
   }
 
   return (
     <button type="button" onClick={onClickInterno} {...rest}>
-      {Children}
+      {children}
     </button>
   )
 }

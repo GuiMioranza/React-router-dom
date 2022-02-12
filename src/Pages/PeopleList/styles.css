@@ -1,0 +1,20 @@
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 727px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 23px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.people-list-container {
+  display: flex;
+  flex-direction: column;
+}

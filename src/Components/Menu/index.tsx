@@ -2,7 +2,10 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import './styles.css'
 
+
 export default function Menu() {
+
+
   return (
     <div className="menu-container">
       <Link to="/"> Home </Link>

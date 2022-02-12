@@ -1,0 +1,28 @@
+.person-container {
+  display: flex;
+  flex-direction: row;
+  border-bottom: #ccc solid 2px;
+}
+
+.person-infos-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  padding: 11px 0px;
+}
+
+.info label {
+  margin-right: 9px;
+  font-weight: 500;
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  padding: 0px 17px;
+}
