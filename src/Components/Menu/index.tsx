@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './styles.css'
 
 
+
 export default function Menu() {
 
 
@@ -10,6 +11,10 @@ export default function Menu() {
     <div className="menu-container">
       <Link to="/"> Home </Link>
       <Link to="/About"> About </Link>
+      <Link to="/Dashboard"> Dashboard </Link>
+      <Link to="/peopleList"> People </Link>
+      <Link to="/ClassList"> Class List </Link>
+      <Link to="/GitHubProfile"> Git Hub </Link>
     </div>
   )
 }

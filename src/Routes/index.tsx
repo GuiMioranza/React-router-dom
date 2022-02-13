@@ -7,6 +7,8 @@ import About from '../Pages/About';
 import Error404 from "../Pages/Error404";
 import PeopleList from "../Pages/PeopleList";
 import Dashboard from "../Pages/Dashboard";
+import GitHubProfile from "../Pages/GitHubProfile";
+import ClassList from "../Pages/ClassList";
 
 
 export default function AppRoutes() {
@@ -22,8 +24,11 @@ export default function AppRoutes() {
               <Dashboard />
             </RequireAuth>
           } />
+
+          <Route path="/PeopleList" element={<PeopleList />} />
+          <Route path="/ClassList" element={<ClassList />} />
+          <Route path="/GitHubProfile" element={<GitHubProfile />} />
           <Route path="*" element={<Error404 />} />
-          <Route path=" /peopleList" element={<PeopleList />} />
       </Routes>
     </BrowserRouter>
   )
