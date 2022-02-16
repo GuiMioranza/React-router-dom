@@ -29,7 +29,7 @@ export default function Person ({person, onDelete} : PersonProps) {
           <p> {person.age} </p>
         </div>
       </div>
-      <div>
+      <div  className="menu-container">
         <button onClick={handleDelete}> Excluir </button>
       </div>
     </div>

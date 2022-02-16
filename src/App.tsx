@@ -1,9 +1,12 @@
 import './App.css';
 import AppRoutes from './Routes'
+import Contexts from './Hooks'
 
 
 export default function App() {
   return (
-    <AppRoutes />
+    <Contexts>
+      <AppRoutes />  
+    </Contexts>
   );
 }
